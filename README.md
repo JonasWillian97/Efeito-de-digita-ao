@@ -1,1 +1,1 @@
-# Efeito-de-digita-ao
+efeito-de-digitacao
