@@ -1,0 +1,35 @@
+body{
+ background: #333;
+ padding-top: 1em;
+ padding-left: 4em;
+ display: flex;
+ justify-content: left;
+}
+
+.type-write{
+color: white;
+font-family: monospace;
+overflow: hidden;
+white-space: nowrap;
+border-right: 2px solid cyan;
+animation: typing 4s steps(40) 1s normal,
+           blin-caret 500ms steps(40) infinite normal both ;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+@keyframes blink-caret{
+    from{
+        border-right-color: cyan;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
